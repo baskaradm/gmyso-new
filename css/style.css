@@ -117,6 +117,11 @@ h6 {
   text-transform: uppercase;
   background: var(--primary-color);
 }
+
+.btn-footer {
+  background-color: var(--primary-color);
+}
+
 .card {
   background: white;
   padding: 1rem;
@@ -245,4 +250,23 @@ h6 {
   justify-content: space-between;
   align-items: center;
   margin-right: 10px;
+}
+
+/* Footer */
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  text-align: center;
+}
+
+#main-footer .footer-container > *:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#main-footer .footer-container i {
+  color: #f13a11;
 }
